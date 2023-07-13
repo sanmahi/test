@@ -1,0 +1,8 @@
+name: test-actions
+on: push
+jobs:
+ my-actionjob:
+   runs-on: ubuntu-latest
+   steps: 
+    - name: name-on-workflowsteps
+      run: echo "running on actions"
